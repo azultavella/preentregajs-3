@@ -1,0 +1,139 @@
+/* GOOGLE FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+/* RESETEO CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CSS GENERALES */
+html {
+    font-size: 1em;
+}
+
+h1 {
+    font-family: "Lora", serif;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+}
+
+p {
+    font-family: "Lora", serif;
+}
+
+li {
+    display: inline-block;
+}
+
+.colorFondo {
+    background-color: #FBEDED;
+}
+
+main {
+    margin-top: 6em;
+}
+
+
+/* CSS BARRA DE NAVEGACION PAGINAS */
+#pagHeader {
+    background-color: #55735F;
+    display: flex;
+    justify-content: space-between;
+}
+#pagHeader img {
+    height: 5em;
+    width: auto;
+    margin: 0.4em;
+    border-radius: 50%;
+}
+#pagHeader nav ul li {
+    margin-inline: 0.5em;
+}
+
+/* CSS FOOTER */
+#footer {
+    height: 4em;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+#footer aside p {
+    color: #405944;
+}
+#footer div {
+    display: inline-block;
+}
+#footer svg {
+    color: #405944;
+    margin-inline: 0.3em;
+}
+
+.footer {
+    height: 4em;
+    width: 100%;
+    margin-top: 3em;
+    background-color: rgba(64, 89, 68, 0.6980392157);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.footer aside p {
+    color: #405944;
+}
+.footer div {
+    display: inline-block;
+}
+.footer svg {
+    color: #405944;
+    margin-inline: 0.3em;
+}
+
+
+/* CSS CONTACTO */
+.contactanos {
+    padding-block: 15px;
+    margin-block: 15px;
+}
+
+.contSecciones {
+    margin-block: 1.5em;
+}
+.contSecciones h2 {
+    padding-bottom: 0.5em;
+}
+.contSecciones p {
+    padding-bottom: 0.5em;
+}
+.contSecciones .rrssContacto {
+    margin-block: 2em;
+    margin-left: 6em;
+    font-family: "Lora", serif;
+}
+
+.colorInput {
+    background-color: #C5B9AF;
+    box-shadow: 0 0 10px #C5B9AF;
+}
+
+.btnContacto {
+    border: none;
+    padding-block: 0.5em;
+    padding-inline: 2em;
+    background-color: #405944;
+    color: #FBEDED;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #C5B9AF;
+}
+
+.btnContacto:hover {
+    background-color: #55735F;
+    color: #FBEDED;
+    text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
